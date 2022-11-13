@@ -1,0 +1,84 @@
+/* GENERIC CLASSES */
+.title {
+ text-align: center;
+}
+/* Value Presentation */
+header {
+ flex-direction: column;
+}
+
+header ul {
+ flex-direction: column;
+ margin-top: 1.5rem;
+}
+
+header ul li {
+ border-bottom: 1px dotted #ddd;
+ padding: 0.5rem;
+ text-align: center;
+}
+
+.vp-content h1 {
+ padding-top: 1rem;
+ font-size: 2rem;
+ margin-bottom: 2rem;
+}
+
+.vp-content p {
+ font-size: 1.5rem;
+ font-weight: 400;
+}
+
+/* Section Offers */
+.offers {
+ padding: 5rem 1rem;
+ text-align: center;
+}
+
+.offer-list {
+ flex-direction: column;
+}
+
+/* SECTION WHO */
+.who {
+ flex-direction: column-reverse;
+}
+
+.who-elem-img {
+ min-height: 300px;
+}
+
+.who-elem-text {
+ padding: 4rem 2rem;
+}
+
+/* SECTION TESTIMONIALS */
+.testimonials {
+ padding: 5rem 1rem;
+}
+
+.testimonial-elem {
+ flex-direction: column;
+}
+
+.testimonial-elem:nth-child(2n) {
+ flex-direction: column;
+}
+
+.testimonial-elem-profil {
+ text-align: center;
+}
+
+.testimonial-elem-profil img {
+ display: block;
+ margin: 2rem auto;
+}
+
+/* SECTION CONTACT */
+.contact {
+ padding: 5rem 1rem; 
+}
+
+.contact-form button {
+ margin: 3rem auto 0;
+}
